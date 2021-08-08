@@ -1,0 +1,16 @@
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+
+// add elements of existing array in a new array
+let newArray = [...arr1,'IYUL', 'IYUN', 'AUGUST'];
+console.log(newArray)
+
+// copy
+let arr2;
+arr2 = [...arr1];  // Change this line
+console.log(arr2);
+
+// concat
+let arr3 = [1,2,3,4]
+// let arr4 = arr1.concat(arr3);
+let arr4 = [...arr1, ...arr3];
+console.log(arr4);

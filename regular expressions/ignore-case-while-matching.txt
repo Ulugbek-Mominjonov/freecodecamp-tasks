@@ -1,0 +1,31 @@
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Change this line
+let result = fccRegex.test(myString);
+
+/*Your regex should match the string freeCodeCamp
+
+Passed
+Your regex should match the string FreeCodeCamp
+
+Passed
+Your regex should match the string FreecodeCamp
+
+Passed
+Your regex should match the string FreeCodecamp
+
+Passed
+Your regex should not match the string Free Code Camp
+
+Passed
+Your regex should match the string FreeCOdeCamp
+
+Passed
+Your regex should not match the string FCC
+
+Passed
+Your regex should match the string FrEeCoDeCamp
+
+Passed
+Your regex should match the string FrEeCodECamp
+
+Passed*/

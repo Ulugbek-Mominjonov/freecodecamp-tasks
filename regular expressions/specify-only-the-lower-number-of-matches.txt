@@ -1,0 +1,4 @@
+let haStr = "Hazzzzah";
+let haRegex = /[a-z]{2,}z{4,}[a-z]+/i; // Change this line
+let result = haRegex.test(haStr);
+console.log(result)

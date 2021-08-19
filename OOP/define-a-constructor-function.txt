@@ -1,0 +1,18 @@
+function Dog () {
+  this.name = 'simba',
+  this.color = 'blue',
+  this.numLegs = 4;
+}
+let ob = new Dog();
+console.log(ob)
+
+// ES6
+// class Dog {
+//   constructor () {
+//     this.name = "simba",
+//     this.color = "black",
+//     this.numLegs = 4;
+//   }
+// }
+// let ob = new Dog();
+// console.log(ob)

@@ -1,0 +1,11 @@
+function getIndexToIns(arr, num) {
+  // return arr
+  //   .concat(num)
+  //   .sort((a,b) => a-b)
+  //   .indexOf(num);
+
+  return arr.filter(val => num > val).length;
+}
+
+getIndexToIns([40, 60], 50);
+console.log(getIndexToIns([2, 5, 10], 15))

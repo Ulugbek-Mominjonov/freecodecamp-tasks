@@ -1,0 +1,23 @@
+function reverseString(str) {
+  // solution 1 
+  // let reverseText = "";
+  // for(let i = str.length-1; i >= 0; i--){
+  //   reverseText += str[i];
+  // }
+  
+  // return reverseText;
+
+  // solution 2
+  // return str
+  //  .split('')
+  //  .reverse()
+  //   .join('')
+
+  // solution 3
+  return [...str]
+    .reverse()
+    .join('')
+}
+
+reverseString("hello");
+console.log(reverseString("hello"))
